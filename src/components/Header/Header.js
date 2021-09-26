@@ -6,7 +6,7 @@ const Header = () => {
             <h1>Top 10 Most Beautiful Birds In The World
             </h1>
             <p>Majority of birds in this world are beautiful. However, some species definitely have striking features which could outrank the rest.</p>
-            <h3>Total Birds:450 Million</h3>
+            <h3>Total Budget:$5000</h3>
         </div>
     );
 };
