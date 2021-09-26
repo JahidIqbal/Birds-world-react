@@ -2,64 +2,73 @@
     {
         "id": 1,
         "name": "Golden Pheasant",
+        "Family": "Phasianidae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/golden-pheasant.webp",
         "color": "red",
-        "price": "$900"
+        "price": 900
     },
     {
         "id": 2,
         "name": " Scarlet Macaw",
+        "Family": "Psittacidae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/scarlet-macaw.webp",
         "color": "green",
-        "price": "$800"
+        "price": 800
     },
     {
         "id": 3,
         "name": "Flamingo",
+        "Family": "Phoenicopteridae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/flamigo.webp",
         "color": "orange",
-        "price": "$700"
+        "price": 700
     },
     {
         "id": 4,
         "name": " Peacock",
+        "Family": "Phasianidae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/peacock.webp",
-        "color": "Navy blue",
-        "price": "$600"
+        "color": "iridescent blue",
+        "price": 600
     },
     {
         "id": 5,
         "name": " Keel-billed Toucan",
+        "Family": "Ramphastos",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/keel-billed-toucan.webp",
         "color": "yellow",
-        "price": "$500"
+        "price": 500
     },
     {
         "id": 6,
         "name": "Atlantic Puffin",
+        "Family": "Alcidae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/atlantic-puffin.webp ",
         "color": "White",
-        "price": "$400"
+        "price": 400
     },
     {
         "id": 7,
         "name": "Blue Jay",
+        "Family": "Corvidae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/blue-jay.webp ",
         "color": "Blue",
-        "price": "$350"
+        "price": 350
     },
     {
         "id": 8,
         "name": "Bohemian Waxwing",
+        "Family": "Bombycillidae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/bohemian-waxwing.webp",
         "color": "Brown",
-        "price": "$300"
+        "price": 300
     },
     {
         "id": 9,
         "name": " Wood Duck",
+        "Family": "Anatidae",
         "img": "https://themysteriousworld.com/wp-content/uploads/2015/07/wood-duck.webp",
         "color": "grey-brown",
-        "price": "$200"
+        "price": 200
     }
 ]

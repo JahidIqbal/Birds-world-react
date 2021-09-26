@@ -3,8 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDove } from '@fortawesome/free-solid-svg-icons'
 
 const Bird = (props) => {
-    console.log(props.bird);
-    const { id, name, img, color, price } = props.bird;
+    const { id, name, img, Family, color, price } = props.bird;
     return (
         <div className="col-4">
             <div className="card mb-3">
@@ -14,10 +13,11 @@ const Bird = (props) => {
                     </div>
                     <div className="col-12 ">
                         <div className="card-body text-center ">
-                            <h5 className="card-title">name:{name}</h5>
-                            <p className="card-text">id:{id}</p>
-                            <p className="card-text">color:{color}</p>
-                            <p className="card-text">price:{price}</p>
+                            <p className="card-title h4">Name:{name}</p>
+                            <p className="card-text h5">ID:{id}</p>
+                            <p className="card-text h5">Family:{Family}</p>
+                            <p className="card-text h5">Color:{color}</p>
+                            <p className="card-text h5 ">Price:{price}</p>
                             <button onClick={() => props.showBird(props.bird)} className="btn btn-info  "><FontAwesomeIcon icon={faDove} />Select Bird</button>
                         </div>
 

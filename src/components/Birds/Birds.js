@@ -13,7 +13,7 @@ const Birds = () => {
     }, [])
 
     const showBird = (bird) => {
-        const cartName = [bird]
+        const cartName = [...cart, bird]
         setCart(cartName);
     }
 
